@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Transfer · The Untreated</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="splash" id="splash" onclick="if(window._splashReady)dismissSplash()">
+  <a href="https://onehundredyears.report" style="position:absolute;top:24px;left:24px;text-decoration:none;border:none;" onclick="event.stopPropagation()">
+    <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+  </a>
+  <div class="splash-number" style="display:flex;gap:80px;align-items:baseline;">
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#4A90D9;">558,922</span>
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#C0392B;">37,650</span>
+  </div>
+  <div class="splash-label" style="display:flex;gap:80px;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:0.08em;margin-top:12px;">
+    <span style="color:rgba(74,144,217,0.6);">psychiatric beds &middot; 1955</span>
+    <span style="color:rgba(192,57,43,0.6);">psychiatric beds &middot; today</span>
+  </div>
+  <div class="splash-title" style="font-family:'Playfair Display',serif;font-size:min(36px,5vw);font-weight:500;color:#E8E8F0;margin-top:56px;text-align:center;">One Hundred Years of The Untreated</div>
+  <div class="splash-thesis" style="font-family:'Source Serif 4',serif;font-size:15px;color:rgba(232,232,240,0.45);text-align:center;max-width:560px;line-height:1.6;margin-top:16px;font-style:italic;">America closed its psychiatric hospitals. It never built what was supposed to replace them.</div>
+  <div class="splash-enter" style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(232,232,240,0.4);margin-top:64px;">ENTER THE RECORD &rarr;</div>
+</div>
+<script>
+window._splashReady=false;if(sessionStorage.getItem('corpus_the-untreated_seen')){document.getElementById('splash').style.display='none';}else{setTimeout(function(){window._splashReady=true;},3500);document.addEventListener('keydown',dismissSplash);}
+function dismissSplash(){sessionStorage.setItem('corpus_the-untreated_seen','1');var s=document.getElementById('splash');s.classList.add('out');setTimeout(function(){s.style.display='none';},500);}
+</script>
+
+<main class="shell">
+<header class="masthead">
+  <div style="display:flex;align-items:flex-start;gap:16px;">
+    <a href="https://onehundredyears.report" style="text-decoration:none;flex-shrink:0;margin-top:4px;border:none;">
+      <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <div>
+      <div class="series">One Hundred Years of</div>
+      <h1>The <em>Untreated</em></h1>
+      <div class="sub">Where did the deinstitutionalized go? Five receiving systems absorbed 521,272 missing beds.</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><span class="k">Report</span> &nbsp; <span class="v">06 / 10</span></div>
+    <div><span class="k">Window</span> &nbsp; <span class="v">1900 &mdash; 2024</span></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <a class="tab" href="index.html">The Beds</a>
+  <a class="tab active" href="transfer.html">Transfer</a>
+  <a class="tab" href="geography.html">Geography</a>
+  <a class="tab" href="cost.html">The Cost</a>
+  <a class="tab" href="encounter.html">Encounter</a>
+  <a class="tab" href="pipeline.html">Pipeline</a>
+  <a class="tab" href="method.html">Method</a>
+</nav>
+
+<section class="statrow four">
+  <div class="stat">
+    <div class="label">Beds lost</div>
+    <div class="value red">521,272</div>
+    <div class="foot">558,922 &minus; 37,650</div>
+  </div>
+  <div class="stat">
+    <div class="label">SMI in jails/prisons</div>
+    <div class="value red">383,000</div>
+    <div class="foot">10&times; more than in hospitals</div>
+  </div>
+  <div class="stat">
+    <div class="label">Homeless with SMI</div>
+    <div class="value amber">172,000</div>
+    <div class="foot">1 in 3 homeless adults</div>
+  </div>
+  <div class="stat">
+    <div class="label">SMI untreated</div>
+    <div class="value">5,000,000</div>
+    <div class="foot">40% of all SMI adults</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">Receiving systems</span>
+    <span class="rule"></span>
+    <span class="aside">5 destinations</span>
+  </div>
+  <h2 class="section-title">Where the <em class="red">untreated</em> went</h2>
+  <div class="section-lede">
+    The 521,272 beds that disappeared represent people who, under 1955 ratios, would have been hospitalized. They went to five systems &mdash; none designed as psychiatric care.
+  </div>
+
+  <div class="card-grid" id="systems-grid"></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">The transfer thesis</span>
+    <span class="rule"></span>
+  </div>
+  <div class="prose">
+    <p>Deinstitutionalization was not a failure of idea but of execution. The Community Mental Health Act of 1963 envisioned 2,000 community mental health centers. Fewer than half were ever built, and most were underfunded within a decade.</p>
+    <p>The IMD exclusion &mdash; a Medicaid provision barring federal payment for psychiatric hospitals with more than 16 beds &mdash; created a perverse incentive: states saved money by closing hospitals and shifting costs to jails, ERs, and the streets.</p>
+    <p>The result is a system of <em>transinstitutionalization</em>: patients moved not from institutions to communities, but from one form of institutional confinement to another. The three largest psychiatric facilities in the United States are now the Los Angeles County Jail, Cook County Jail, and Rikers Island.</p>
+  </div>
+</section>
+
+<footer class="bb-foot">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <a href="https://onehundredyears.report" style="display:flex;align-items:center;border:none;">
+      <svg width="12" height="36" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <span>One Hundred Years</span>
+  </div>
+  <div>MIT &middot; <a href="https://github.com/doctorbrownphd/hundred-years-untreated" style="border:none;color:var(--gold);">GitHub</a></div>
+</footer>
+</main>
+
+<button id="theme-toggle" onclick="toggleTheme()" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:var(--ink-2);color:var(--vellum-dim);border:1px solid var(--rule);font-family:var(--mono);font-size:16px;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);">&#9728;</button>
+<script>
+function toggleTheme(){var h=document.documentElement,c=h.getAttribute('data-theme')||'dark',n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('untreated-theme',n);document.getElementById('theme-toggle').innerHTML=n==='dark'?'&#9728;':'&#9790;';}
+(function(){var s=localStorage.getItem('untreated-theme')||'dark';document.documentElement.setAttribute('data-theme',s);if(s==='light')document.getElementById('theme-toggle').innerHTML='&#9790;';})();
+</script>
+
+<script>
+fetch('meta.json').then(r=>r.json()).then(function(meta){
+  var systems = meta.data.transfer.systems;
+  var grid = document.getElementById('systems-grid');
+  var colors = {'jails_prisons':'#C0392B','homelessness':'#E67E22','nursing_homes':'#8E44AD','emergency_rooms':'#E74C3C','community_unsupported':'#95A5A6'};
+  systems.forEach(function(s){
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML =
+      '<div class="card-label">'+s.id.replace(/_/g,' ')+'</div>' +
+      '<div class="card-title" style="color:'+s.color+'">'+s.name+'</div>' +
+      '<div class="card-stat" style="color:'+s.color+'">'+(s.estimated_smi ? s.estimated_smi.toLocaleString() : s.estimated_annual_visits.toLocaleString())+'</div>' +
+      '<div class="card-body">'+s.description+'</div>' +
+      '<div style="margin-top:12px;padding:8px 12px;background:rgba(42,42,62,0.5);border-radius:3px;font-family:var(--mono);font-size:11px;color:var(--vellum-dim);">'+s.key_stat+'</div>' +
+      '<div class="card-source">'+s.source+'</div>';
+    grid.appendChild(card);
+  });
+});
+</script>
+
+</body>
+</html>

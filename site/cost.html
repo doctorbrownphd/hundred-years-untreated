@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Cost · The Untreated</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="splash" id="splash" onclick="if(window._splashReady)dismissSplash()">
+  <a href="https://onehundredyears.report" style="position:absolute;top:24px;left:24px;text-decoration:none;border:none;" onclick="event.stopPropagation()">
+    <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+  </a>
+  <div class="splash-number" style="display:flex;gap:80px;align-items:baseline;">
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#4A90D9;">558,922</span>
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#C0392B;">37,650</span>
+  </div>
+  <div class="splash-label" style="display:flex;gap:80px;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:0.08em;margin-top:12px;">
+    <span style="color:rgba(74,144,217,0.6);">psychiatric beds &middot; 1955</span>
+    <span style="color:rgba(192,57,43,0.6);">psychiatric beds &middot; today</span>
+  </div>
+  <div class="splash-title" style="font-family:'Playfair Display',serif;font-size:min(36px,5vw);font-weight:500;color:#E8E8F0;margin-top:56px;text-align:center;">One Hundred Years of The Untreated</div>
+  <div class="splash-thesis" style="font-family:'Source Serif 4',serif;font-size:15px;color:rgba(232,232,240,0.45);text-align:center;max-width:560px;line-height:1.6;margin-top:16px;font-style:italic;">America closed its psychiatric hospitals. It never built what was supposed to replace them.</div>
+  <div class="splash-enter" style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(232,232,240,0.4);margin-top:64px;">ENTER THE RECORD &rarr;</div>
+</div>
+<script>window._splashReady=false;if(sessionStorage.getItem('corpus_the-untreated_seen')){document.getElementById('splash').style.display='none';}else{setTimeout(function(){window._splashReady=true;},3500);document.addEventListener('keydown',dismissSplash);}function dismissSplash(){sessionStorage.setItem('corpus_the-untreated_seen','1');var s=document.getElementById('splash');s.classList.add('out');setTimeout(function(){s.style.display='none';},500);}</script>
+
+<main class="shell">
+<header class="masthead">
+  <div style="display:flex;align-items:flex-start;gap:16px;">
+    <a href="https://onehundredyears.report" style="text-decoration:none;flex-shrink:0;margin-top:4px;border:none;">
+      <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <div>
+      <div class="series">One Hundred Years of</div>
+      <h1>The <em>Untreated</em></h1>
+      <div class="sub">What America pays per person, per system. The cheapest option is treatment. The most expensive is avoidance.</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><span class="k">Report</span> &nbsp; <span class="v">06 / 10</span></div>
+    <div><span class="k">Systems</span> &nbsp; <span class="v">7 compared</span></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <a class="tab" href="index.html">The Beds</a>
+  <a class="tab" href="transfer.html">Transfer</a>
+  <a class="tab" href="geography.html">Geography</a>
+  <a class="tab active" href="cost.html">The Cost</a>
+  <a class="tab" href="encounter.html">Encounter</a>
+  <a class="tab" href="pipeline.html">Pipeline</a>
+  <a class="tab" href="method.html">Method</a>
+</nav>
+
+<section class="statrow four">
+  <div class="stat">
+    <div class="label">Outpatient treatment</div>
+    <div class="value blue">$4,500<span class="unit">/yr</span></div>
+    <div class="foot">community-based care</div>
+  </div>
+  <div class="stat">
+    <div class="label">State prison</div>
+    <div class="value red">$85,000<span class="unit">/yr</span></div>
+    <div class="foot">19&times; outpatient cost</div>
+  </div>
+  <div class="stat">
+    <div class="label">ER boarding</div>
+    <div class="value red">$2,200<span class="unit">/day</span></div>
+    <div class="foot">$803,000 annualized</div>
+  </div>
+  <div class="stat">
+    <div class="label">Cost ratio</div>
+    <div class="value red">19:1</div>
+    <div class="foot">prison vs. outpatient</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">Figure 04</span>
+    <span class="rule"></span>
+    <span class="aside">Annual cost per person</span>
+  </div>
+  <h2 class="section-title">The <em class="red">cost</em> of not treating</h2>
+  <div class="section-lede">
+    America does not save money by refusing to treat mental illness. It spends more &mdash; orders of magnitude more &mdash; routing people through emergency rooms, jails, and prisons.
+  </div>
+
+  <div class="bar-chart" id="cost-bars"></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">The arithmetic</span>
+    <span class="rule"></span>
+  </div>
+  <div class="prose">
+    <p>The cost comparison is not subtle. Community-based outpatient mental health treatment costs <span class="highlight">$4,500 per person per year</span>. Incarcerating someone in a state prison costs <span class="highlight red">$85,000 per year</span> &mdash; nearly 19 times as much.</p>
+    <p>Emergency room psychiatric boarding costs $2,200 per day. Many patients board for days or weeks waiting for a psychiatric bed that doesn't exist. Annualized, this is the most expensive option in the system at over $800,000.</p>
+    <h3>The spending inversion</h3>
+    <p>Federal and state spending on criminal justice for people with SMI exceeds $15 billion annually. Federal community mental health spending is approximately $5.5 billion. The system spends roughly <strong>3 times more</strong> to incarcerate people with mental illness than to treat them.</p>
+    <p>This is not an argument for any particular policy. It is arithmetic. The cheapest intervention is treatment. The most expensive is its absence.</p>
+  </div>
+</section>
+
+<footer class="bb-foot">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <a href="https://onehundredyears.report" style="display:flex;align-items:center;border:none;"><svg width="12" height="36" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg></a>
+    <span>One Hundred Years</span>
+  </div>
+  <div>MIT &middot; <a href="https://github.com/doctorbrownphd/hundred-years-untreated" style="border:none;color:var(--gold);">GitHub</a></div>
+</footer>
+</main>
+
+<button id="theme-toggle" onclick="toggleTheme()" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:var(--ink-2);color:var(--vellum-dim);border:1px solid var(--rule);font-family:var(--mono);font-size:16px;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);">&#9728;</button>
+<script>
+function toggleTheme(){var h=document.documentElement,c=h.getAttribute('data-theme')||'dark',n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('untreated-theme',n);document.getElementById('theme-toggle').innerHTML=n==='dark'?'&#9728;':'&#9790;';}
+(function(){var s=localStorage.getItem('untreated-theme')||'dark';document.documentElement.setAttribute('data-theme',s);if(s==='light')document.getElementById('theme-toggle').innerHTML='&#9790;';})();
+</script>
+
+<script>
+fetch('meta.json').then(r=>r.json()).then(function(meta){
+  var systems = meta.data.cost.systems.filter(function(s){ return s.name !== 'ER Psychiatric Boarding'; });
+  var maxCost = 85000;
+  var container = document.getElementById('cost-bars');
+
+  systems.forEach(function(s, i){
+    var pct = (s.annual_cost / maxCost * 100);
+    var row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML =
+      '<div class="bar-label">'+s.name+'</div>' +
+      '<div class="bar-track"><div class="bar-fill" style="width:0%;background:'+s.color+'"></div></div>' +
+      '<div class="bar-value">$'+s.annual_cost.toLocaleString()+'</div>';
+    container.appendChild(row);
+    // Animate
+    setTimeout(function(){
+      row.querySelector('.bar-fill').style.width = pct + '%';
+    }, 100 + i * 120);
+  });
+
+  // Add ER boarding as special row
+  var erRow = document.createElement('div');
+  erRow.className = 'bar-row';
+  erRow.style.marginTop = '12px';
+  erRow.style.borderTop = '1px solid var(--rule)';
+  erRow.style.paddingTop = '12px';
+  erRow.innerHTML =
+    '<div class="bar-label" style="color:var(--red);">ER Boarding (daily)</div>' +
+    '<div class="bar-track"><div class="bar-fill" style="width:100%;background:#E74C3C"></div></div>' +
+    '<div class="bar-value" style="color:var(--red);">$2,200/day</div>';
+  container.appendChild(erRow);
+});
+</script>
+
+</body>
+</html>

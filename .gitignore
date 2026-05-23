@@ -1,0 +1,9 @@
+pipeline/data/raw/*.csv
+pipeline/data/raw/*.json
+pipeline/data/clean/
+pipeline/output/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.playwright-mcp/

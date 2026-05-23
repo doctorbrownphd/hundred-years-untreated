@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Pipeline · The Untreated</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="splash" id="splash" onclick="if(window._splashReady)dismissSplash()">
+  <a href="https://onehundredyears.report" style="position:absolute;top:24px;left:24px;text-decoration:none;border:none;" onclick="event.stopPropagation()">
+    <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+  </a>
+  <div class="splash-number" style="display:flex;gap:80px;align-items:baseline;">
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#4A90D9;">558,922</span>
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#C0392B;">37,650</span>
+  </div>
+  <div class="splash-label" style="display:flex;gap:80px;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:0.08em;margin-top:12px;">
+    <span style="color:rgba(74,144,217,0.6);">psychiatric beds &middot; 1955</span>
+    <span style="color:rgba(192,57,43,0.6);">psychiatric beds &middot; today</span>
+  </div>
+  <div class="splash-title" style="font-family:'Playfair Display',serif;font-size:min(36px,5vw);font-weight:500;color:#E8E8F0;margin-top:56px;text-align:center;">One Hundred Years of The Untreated</div>
+  <div class="splash-thesis" style="font-family:'Source Serif 4',serif;font-size:15px;color:rgba(232,232,240,0.45);text-align:center;max-width:560px;line-height:1.6;margin-top:16px;font-style:italic;">America closed its psychiatric hospitals. It never built what was supposed to replace them.</div>
+  <div class="splash-enter" style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(232,232,240,0.4);margin-top:64px;">ENTER THE RECORD &rarr;</div>
+</div>
+<script>window._splashReady=false;if(sessionStorage.getItem('corpus_the-untreated_seen')){document.getElementById('splash').style.display='none';}else{setTimeout(function(){window._splashReady=true;},3500);document.addEventListener('keydown',dismissSplash);}function dismissSplash(){sessionStorage.setItem('corpus_the-untreated_seen','1');var s=document.getElementById('splash');s.classList.add('out');setTimeout(function(){s.style.display='none';},500);}</script>
+
+<main class="shell">
+<header class="masthead">
+  <div style="display:flex;align-items:flex-start;gap:16px;">
+    <a href="https://onehundredyears.report" style="text-decoration:none;flex-shrink:0;margin-top:4px;border:none;">
+      <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <div>
+      <div class="series">One Hundred Years of</div>
+      <h1>The <em>Untreated</em></h1>
+      <div class="sub">The youth mental health crisis and the school-to-prison pipeline for untreated children.</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><span class="k">Report</span> &nbsp; <span class="v">06 / 10</span></div>
+    <div><span class="k">Focus</span> &nbsp; <span class="v">Youth &middot; ages 6&ndash;17</span></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <a class="tab" href="index.html">The Beds</a>
+  <a class="tab" href="transfer.html">Transfer</a>
+  <a class="tab" href="geography.html">Geography</a>
+  <a class="tab" href="cost.html">The Cost</a>
+  <a class="tab" href="encounter.html">Encounter</a>
+  <a class="tab active" href="pipeline.html">Pipeline</a>
+  <a class="tab" href="method.html">Method</a>
+</nav>
+
+<section class="statrow four">
+  <div class="stat">
+    <div class="label">Youth with MH condition</div>
+    <div class="value">1 in 6</div>
+    <div class="foot">ages 6&ndash;17 &middot; CDC</div>
+  </div>
+  <div class="stat">
+    <div class="label">Youth receiving treatment</div>
+    <div class="value red">50<span class="unit">%</span></div>
+    <div class="foot">half receive no care</div>
+  </div>
+  <div class="stat">
+    <div class="label">Juvenile detention &middot; MH</div>
+    <div class="value red">70<span class="unit">%</span></div>
+    <div class="foot">have a diagnosable condition</div>
+  </div>
+  <div class="stat">
+    <div class="label">School counselor ratio</div>
+    <div class="value amber">408:1</div>
+    <div class="foot">recommended: 250:1</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">The pipeline</span>
+    <span class="rule"></span>
+    <span class="aside">Youth mental health &rarr; juvenile justice</span>
+  </div>
+  <h2 class="section-title">From <em>classroom</em> to <em class="red">courtroom</em></h2>
+  <div class="section-lede">
+    When children with mental health conditions go untreated, the school system becomes the first point of failure. Discipline replaces diagnosis. Suspension replaces treatment. The juvenile justice system becomes the mental health system of last resort.
+  </div>
+
+  <!-- Pipeline flow -->
+  <div style="margin-top:32px;">
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:2px;text-align:center;">
+      <div style="background:var(--ink-2);padding:24px 16px;border-radius:3px 3px 0 0;">
+        <div style="font-family:var(--display);font-size:28px;color:var(--blue);">7.7M</div>
+        <div style="font-family:var(--mono);font-size:9px;letter-spacing:0.1em;color:var(--muted);margin-top:8px;text-transform:uppercase;">Youth with MH condition</div>
+      </div>
+      <div style="background:var(--ink-2);padding:24px 16px;">
+        <div style="font-family:var(--display);font-size:28px;color:var(--amber);">3.8M</div>
+        <div style="font-family:var(--mono);font-size:9px;letter-spacing:0.1em;color:var(--muted);margin-top:8px;text-transform:uppercase;">Untreated</div>
+      </div>
+      <div style="background:var(--ink-2);padding:24px 16px;">
+        <div style="font-family:var(--display);font-size:28px;color:var(--amber);">2.5M</div>
+        <div style="font-family:var(--mono);font-size:9px;letter-spacing:0.1em;color:var(--muted);margin-top:8px;text-transform:uppercase;">School discipline events</div>
+      </div>
+      <div style="background:var(--ink-2);padding:24px 16px;">
+        <div style="font-family:var(--display);font-size:28px;color:var(--red);">728K</div>
+        <div style="font-family:var(--mono);font-size:9px;letter-spacing:0.1em;color:var(--muted);margin-top:8px;text-transform:uppercase;">Juvenile arrests</div>
+      </div>
+      <div style="background:var(--ink-2);padding:24px 16px;border-radius:0 0 3px 3px;">
+        <div style="font-family:var(--display);font-size:28px;color:var(--red);">36K</div>
+        <div style="font-family:var(--mono);font-size:9px;letter-spacing:0.1em;color:var(--muted);margin-top:8px;text-transform:uppercase;">Juvenile detention</div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:0;">
+      <div style="text-align:center;padding:8px;font-family:var(--mono);font-size:18px;color:var(--muted);">&rarr;</div>
+      <div style="text-align:center;padding:8px;font-family:var(--mono);font-size:18px;color:var(--muted);">&rarr;</div>
+      <div style="text-align:center;padding:8px;font-family:var(--mono);font-size:18px;color:var(--muted);">&rarr;</div>
+      <div style="text-align:center;padding:8px;font-family:var(--mono);font-size:18px;color:var(--muted);">&rarr;</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">The youth crisis</span>
+    <span class="rule"></span>
+  </div>
+  <div class="prose">
+    <h3>The 11-year gap</h3>
+    <p>The average delay between the onset of mental health symptoms and first treatment is <span class="highlight red">11 years</span>. For most people, symptoms begin in adolescence. Treatment, if it comes at all, arrives in the mid-twenties &mdash; after the school-to-prison pipeline has already done its work.</p>
+
+    <h3>The school system as triage</h3>
+    <p>Schools are the de facto mental health system for American children. Yet the national student-to-school-counselor ratio is 408:1, against a recommended 250:1. In high-poverty districts, the ratio can exceed 1,000:1.</p>
+    <p>When a child's untreated condition manifests as behavioral disruption, the response is disciplinary, not clinical. Suspension, expulsion, and school-based arrest become the interventions. The child enters the juvenile justice system, where 70% of detained youth have a diagnosable mental health condition.</p>
+
+    <h3>The pandemic acceleration</h3>
+    <p>The COVID-19 pandemic accelerated youth mental health deterioration. Between 2019 and 2023:</p>
+    <p>&bull; Youth suicide attempts increased 31%<br>
+       &bull; ER visits for pediatric mental health crises rose 24%<br>
+       &bull; Adolescent depression diagnoses increased 40%</p>
+    <p>The Surgeon General declared youth mental health a national crisis in 2021. The crisis predated the pandemic by decades. COVID merely made it impossible to ignore.</p>
+  </div>
+</section>
+
+<footer class="bb-foot">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <a href="https://onehundredyears.report" style="display:flex;align-items:center;border:none;"><svg width="12" height="36" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg></a>
+    <span>One Hundred Years</span>
+  </div>
+  <div>MIT &middot; <a href="https://github.com/doctorbrownphd/hundred-years-untreated" style="border:none;color:var(--gold);">GitHub</a></div>
+</footer>
+</main>
+
+<button id="theme-toggle" onclick="toggleTheme()" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:var(--ink-2);color:var(--vellum-dim);border:1px solid var(--rule);font-family:var(--mono);font-size:16px;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);">&#9728;</button>
+<script>
+function toggleTheme(){var h=document.documentElement,c=h.getAttribute('data-theme')||'dark',n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('untreated-theme',n);document.getElementById('theme-toggle').innerHTML=n==='dark'?'&#9728;':'&#9790;';}
+(function(){var s=localStorage.getItem('untreated-theme')||'dark';document.documentElement.setAttribute('data-theme',s);if(s==='light')document.getElementById('theme-toggle').innerHTML='&#9790;';})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Methodology · The Untreated</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="splash" id="splash" onclick="if(window._splashReady)dismissSplash()">
+  <a href="https://onehundredyears.report" style="position:absolute;top:24px;left:24px;text-decoration:none;border:none;" onclick="event.stopPropagation()">
+    <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+  </a>
+  <div class="splash-number" style="display:flex;gap:80px;align-items:baseline;">
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#4A90D9;">558,922</span>
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#C0392B;">37,650</span>
+  </div>
+  <div class="splash-label" style="display:flex;gap:80px;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:0.08em;margin-top:12px;">
+    <span style="color:rgba(74,144,217,0.6);">psychiatric beds &middot; 1955</span>
+    <span style="color:rgba(192,57,43,0.6);">psychiatric beds &middot; today</span>
+  </div>
+  <div class="splash-title" style="font-family:'Playfair Display',serif;font-size:min(36px,5vw);font-weight:500;color:#E8E8F0;margin-top:56px;text-align:center;">One Hundred Years of The Untreated</div>
+  <div class="splash-thesis" style="font-family:'Source Serif 4',serif;font-size:15px;color:rgba(232,232,240,0.45);text-align:center;max-width:560px;line-height:1.6;margin-top:16px;font-style:italic;">America closed its psychiatric hospitals. It never built what was supposed to replace them.</div>
+  <div class="splash-enter" style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(232,232,240,0.4);margin-top:64px;">ENTER THE RECORD &rarr;</div>
+</div>
+<script>window._splashReady=false;if(sessionStorage.getItem('corpus_the-untreated_seen')){document.getElementById('splash').style.display='none';}else{setTimeout(function(){window._splashReady=true;},3500);document.addEventListener('keydown',dismissSplash);}function dismissSplash(){sessionStorage.setItem('corpus_the-untreated_seen','1');var s=document.getElementById('splash');s.classList.add('out');setTimeout(function(){s.style.display='none';},500);}</script>
+
+<main class="shell">
+<header class="masthead">
+  <div style="display:flex;align-items:flex-start;gap:16px;">
+    <a href="https://onehundredyears.report" style="text-decoration:none;flex-shrink:0;margin-top:4px;border:none;">
+      <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <div>
+      <div class="series">One Hundred Years of</div>
+      <h1>The <em>Untreated</em></h1>
+      <div class="sub">Data sources, confidence levels, and methodological limitations.</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><span class="k">Report</span> &nbsp; <span class="v">06 / 10</span></div>
+    <div><span class="k">Confidence</span> &nbsp; <span class="v">3-tier system</span></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <a class="tab" href="index.html">The Beds</a>
+  <a class="tab" href="transfer.html">Transfer</a>
+  <a class="tab" href="geography.html">Geography</a>
+  <a class="tab" href="cost.html">The Cost</a>
+  <a class="tab" href="encounter.html">Encounter</a>
+  <a class="tab" href="pipeline.html">Pipeline</a>
+  <a class="tab active" href="method.html">Method</a>
+</nav>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">Confidence system</span>
+    <span class="rule"></span>
+  </div>
+  <h2 class="section-title">Three tiers of <em>confidence</em></h2>
+  <div class="section-lede">
+    Every claim in this report is assigned a confidence level. The data speaks, but it speaks with varying degrees of certainty.
+  </div>
+
+  <div class="card-grid" style="margin-top:24px;">
+    <div class="card">
+      <div class="card-label" style="color:var(--green);">HIGH CONFIDENCE</div>
+      <div class="card-title" style="color:var(--green);">Verified</div>
+      <div class="card-body">Multiple independent sources confirm. Government statistics with consistent methodology. Directly measurable.</div>
+      <div class="card-source" style="margin-top:16px;">
+        &bull; 1955 peak: 558,922 beds (SAMHSA, APA, TAC all agree)<br>
+        &bull; BJS incarceration rates (official census data)<br>
+        &bull; SMI in jails/prisons (DOJ surveys + TAC analysis)
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:var(--amber);">CANDIDATE</div>
+      <div class="card-title" style="color:var(--amber);">Estimated</div>
+      <div class="card-body">Derived from credible studies but with known methodological limitations. May involve extrapolation or modeling assumptions.</div>
+      <div class="card-source" style="margin-top:16px;">
+        &bull; Cost figures (vary by state; national averages)<br>
+        &bull; 16x encounter risk (TAC 2015 study; methodology debated)<br>
+        &bull; Homelessness counts (PIT methodology undercounts)
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:var(--red);">SPECULATIVE</div>
+      <div class="card-title" style="color:var(--red);">Inferred</div>
+      <div class="card-body">Reasonable inference from available data but not directly measured. Included for completeness with explicit uncertainty flags.</div>
+      <div class="card-source" style="margin-top:16px;">
+        &bull; Youth pipeline flow numbers (multiple data sources combined)<br>
+        &bull; Historical bed counts pre-1940 (limited records)
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="label">Data sources</span>
+    <span class="rule"></span>
+  </div>
+  <div class="prose">
+    <h3>Primary sources</h3>
+    <p><strong>Psychiatric beds.</strong> Historical data from Grob (1994), <em>The Mad Among Us</em>; Torrey et al. (2010); Treatment Advocacy Center reports (2012, 2016, 2020); SAMHSA Uniform Reporting System. The 1955 peak of 558,922 is a consensus figure across multiple independent sources.</p>
+    <p><strong>Incarceration.</strong> Bureau of Justice Statistics, National Prisoner Statistics (NPS-1), 1925-2024. State and federal prisoner counts; rates computed against Census Bureau population estimates.</p>
+    <p><strong>Cost data.</strong> SAMHSA cost-effectiveness studies; Vera Institute of Justice jail cost analyses; Treatment Advocacy Center economic impact reports; Congressional Budget Office estimates.</p>
+    <p><strong>Fatal force.</strong> Washington Post Fatal Force database (2015-present); Treatment Advocacy Center (2015), "Overlooked in the Undercounted."</p>
+    <p><strong>Homelessness.</strong> HUD Annual Homeless Assessment Report (AHAR); Point-in-Time (PIT) counts.</p>
+
+    <h3>Interpolation method</h3>
+    <p>Between anchor data points, this report uses linear interpolation. All anchor points are sourced; interpolated years are marked as derived. The interpolation does not add information &mdash; it connects known points for visual continuity.</p>
+
+    <h3>Known limitations</h3>
+    <p>&bull; <strong>Bed counts.</strong> Pre-1940 records are incomplete. State-by-state reporting was inconsistent before SAMHSA standardization.</p>
+    <p>&bull; <strong>SMI prevalence.</strong> Definitions of "serious mental illness" vary across surveys and decades. SAMHSA's current definition may not match historical classifications.</p>
+    <p>&bull; <strong>Causal claims.</strong> Correlation between bed closures and incarceration increases is well-documented but does not prove direct causation. Multiple factors contributed to mass incarceration, including the War on Drugs and mandatory minimum sentencing.</p>
+    <p>&bull; <strong>Cost comparisons.</strong> Per-person costs vary widely by state and facility. National averages obscure significant regional variation.</p>
+    <p>&bull; <strong>Homelessness data.</strong> PIT counts are known to undercount. The actual number of people experiencing homelessness with SMI is likely higher than reported.</p>
+
+    <h3>What this report does not argue</h3>
+    <p>This report does not advocate for re-institutionalization. It does not argue that the old state hospital system was humane or effective. It documents a specific claim: that America dismantled one system of care without building an adequate replacement, and the consequences of that failure are measurable in beds, cells, sidewalks, and morgues.</p>
+  </div>
+</section>
+
+<footer class="bb-foot">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <a href="https://onehundredyears.report" style="display:flex;align-items:center;border:none;"><svg width="12" height="36" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg></a>
+    <span>One Hundred Years</span>
+  </div>
+  <div>MIT &middot; <a href="https://github.com/doctorbrownphd/hundred-years-untreated" style="border:none;color:var(--gold);">GitHub</a></div>
+</footer>
+</main>
+
+<button id="theme-toggle" onclick="toggleTheme()" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:var(--ink-2);color:var(--vellum-dim);border:1px solid var(--rule);font-family:var(--mono);font-size:16px;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);">&#9728;</button>
+<script>
+function toggleTheme(){var h=document.documentElement,c=h.getAttribute('data-theme')||'dark',n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('untreated-theme',n);document.getElementById('theme-toggle').innerHTML=n==='dark'?'&#9728;':'&#9790;';}
+(function(){var s=localStorage.getItem('untreated-theme')||'dark';document.documentElement.setAttribute('data-theme',s);if(s==='light')document.getElementById('theme-toggle').innerHTML='&#9790;';})();
+</script>
+
+</body>
+</html>

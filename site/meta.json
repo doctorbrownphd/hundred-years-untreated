@@ -1,0 +1,1400 @@
+{
+  "project": "The Untreated",
+  "series": "One Hundred Years",
+  "report_number": "06 / 10",
+  "window": "1900 \u2014 2024",
+  "generated": "2026-05-21",
+  "tabs": [
+    {
+      "id": "beds",
+      "file": "index.html",
+      "label": "The Beds"
+    },
+    {
+      "id": "transfer",
+      "file": "transfer.html",
+      "label": "Transfer"
+    },
+    {
+      "id": "geography",
+      "file": "geography.html",
+      "label": "Geography"
+    },
+    {
+      "id": "cost",
+      "file": "cost.html",
+      "label": "The Cost"
+    },
+    {
+      "id": "encounter",
+      "file": "encounter.html",
+      "label": "Encounter"
+    },
+    {
+      "id": "pipeline",
+      "file": "pipeline.html",
+      "label": "Pipeline"
+    },
+    {
+      "id": "method",
+      "file": "method.html",
+      "label": "Method"
+    }
+  ],
+  "headline_stats": {
+    "peak_beds": 558922,
+    "peak_year": 1955,
+    "current_beds": 37650,
+    "current_year": 2024,
+    "decline_pct": 96.7,
+    "incarcerated_smi": 383000,
+    "smi_adults": 14200000,
+    "untreated_smi": 5000000,
+    "treatment_gap_years": 11,
+    "sixteen_x": 16,
+    "cost_ratio": "19:1"
+  },
+  "data": {
+    "beds": {
+      "title": "The Beds",
+      "subtitle": "Psychiatric beds vs. incarceration rate, 1900-2024",
+      "series": {
+        "beds_per_100k": [
+          {
+            "year": 1900,
+            "value": 197.1
+          },
+          {
+            "year": 1901,
+            "value": 199.5
+          },
+          {
+            "year": 1902,
+            "value": 201.7
+          },
+          {
+            "year": 1903,
+            "value": 203.9
+          },
+          {
+            "year": 1904,
+            "value": 205.9
+          },
+          {
+            "year": 1905,
+            "value": 207.9
+          },
+          {
+            "year": 1906,
+            "value": 209.9
+          },
+          {
+            "year": 1907,
+            "value": 211.7
+          },
+          {
+            "year": 1908,
+            "value": 213.5
+          },
+          {
+            "year": 1909,
+            "value": 215.2
+          },
+          {
+            "year": 1910,
+            "value": 216.9
+          },
+          {
+            "year": 1911,
+            "value": 220.1
+          },
+          {
+            "year": 1912,
+            "value": 223.2
+          },
+          {
+            "year": 1913,
+            "value": 226.2
+          },
+          {
+            "year": 1914,
+            "value": 229.2
+          },
+          {
+            "year": 1915,
+            "value": 232.0
+          },
+          {
+            "year": 1916,
+            "value": 234.8
+          },
+          {
+            "year": 1917,
+            "value": 237.5
+          },
+          {
+            "year": 1918,
+            "value": 240.2
+          },
+          {
+            "year": 1919,
+            "value": 242.7
+          },
+          {
+            "year": 1920,
+            "value": 245.2
+          },
+          {
+            "year": 1921,
+            "value": 249.7
+          },
+          {
+            "year": 1922,
+            "value": 254.0
+          },
+          {
+            "year": 1923,
+            "value": 258.1
+          },
+          {
+            "year": 1924,
+            "value": 262.2
+          },
+          {
+            "year": 1925,
+            "value": 266.1
+          },
+          {
+            "year": 1926,
+            "value": 269.9
+          },
+          {
+            "year": 1927,
+            "value": 273.6
+          },
+          {
+            "year": 1928,
+            "value": 277.2
+          },
+          {
+            "year": 1929,
+            "value": 280.7
+          },
+          {
+            "year": 1930,
+            "value": 284.1
+          },
+          {
+            "year": 1931,
+            "value": 286.1
+          },
+          {
+            "year": 1932,
+            "value": 288.0
+          },
+          {
+            "year": 1933,
+            "value": 289.9
+          },
+          {
+            "year": 1934,
+            "value": 291.8
+          },
+          {
+            "year": 1935,
+            "value": 293.7
+          },
+          {
+            "year": 1936,
+            "value": 295.5
+          },
+          {
+            "year": 1937,
+            "value": 297.4
+          },
+          {
+            "year": 1938,
+            "value": 299.1
+          },
+          {
+            "year": 1939,
+            "value": 300.9
+          },
+          {
+            "year": 1940,
+            "value": 302.7
+          },
+          {
+            "year": 1941,
+            "value": 309.6
+          },
+          {
+            "year": 1942,
+            "value": 316.4
+          },
+          {
+            "year": 1943,
+            "value": 323.0
+          },
+          {
+            "year": 1944,
+            "value": 329.5
+          },
+          {
+            "year": 1945,
+            "value": 335.9
+          },
+          {
+            "year": 1946,
+            "value": 336.5
+          },
+          {
+            "year": 1947,
+            "value": 337.1
+          },
+          {
+            "year": 1948,
+            "value": 337.6
+          },
+          {
+            "year": 1949,
+            "value": 338.2
+          },
+          {
+            "year": 1950,
+            "value": 338.7
+          },
+          {
+            "year": 1951,
+            "value": 338.3
+          },
+          {
+            "year": 1952,
+            "value": 337.9
+          },
+          {
+            "year": 1953,
+            "value": 337.5
+          },
+          {
+            "year": 1954,
+            "value": 337.2
+          },
+          {
+            "year": 1955,
+            "value": 336.8
+          },
+          {
+            "year": 1956,
+            "value": 328.7
+          },
+          {
+            "year": 1957,
+            "value": 320.7
+          },
+          {
+            "year": 1958,
+            "value": 313.0
+          },
+          {
+            "year": 1959,
+            "value": 305.6
+          },
+          {
+            "year": 1960,
+            "value": 298.3
+          },
+          {
+            "year": 1961,
+            "value": 286.9
+          },
+          {
+            "year": 1962,
+            "value": 275.7
+          },
+          {
+            "year": 1963,
+            "value": 265.0
+          },
+          {
+            "year": 1964,
+            "value": 254.6
+          },
+          {
+            "year": 1965,
+            "value": 244.5
+          },
+          {
+            "year": 1966,
+            "value": 228.3
+          },
+          {
+            "year": 1967,
+            "value": 212.4
+          },
+          {
+            "year": 1968,
+            "value": 196.7
+          },
+          {
+            "year": 1969,
+            "value": 181.4
+          },
+          {
+            "year": 1970,
+            "value": 166.3
+          },
+          {
+            "year": 1971,
+            "value": 152.3
+          },
+          {
+            "year": 1972,
+            "value": 138.6
+          },
+          {
+            "year": 1973,
+            "value": 125.3
+          },
+          {
+            "year": 1974,
+            "value": 112.3
+          },
+          {
+            "year": 1975,
+            "value": 99.5
+          },
+          {
+            "year": 1976,
+            "value": 92.6
+          },
+          {
+            "year": 1977,
+            "value": 85.8
+          },
+          {
+            "year": 1978,
+            "value": 79.2
+          },
+          {
+            "year": 1979,
+            "value": 72.6
+          },
+          {
+            "year": 1980,
+            "value": 66.2
+          },
+          {
+            "year": 1981,
+            "value": 61.8
+          },
+          {
+            "year": 1982,
+            "value": 57.5
+          },
+          {
+            "year": 1983,
+            "value": 53.2
+          },
+          {
+            "year": 1984,
+            "value": 49.1
+          },
+          {
+            "year": 1985,
+            "value": 45.0
+          },
+          {
+            "year": 1986,
+            "value": 43.3
+          },
+          {
+            "year": 1987,
+            "value": 41.7
+          },
+          {
+            "year": 1988,
+            "value": 40.1
+          },
+          {
+            "year": 1989,
+            "value": 38.5
+          },
+          {
+            "year": 1990,
+            "value": 37.0
+          },
+          {
+            "year": 1991,
+            "value": 34.9
+          },
+          {
+            "year": 1992,
+            "value": 32.8
+          },
+          {
+            "year": 1993,
+            "value": 30.9
+          },
+          {
+            "year": 1994,
+            "value": 28.9
+          },
+          {
+            "year": 1995,
+            "value": 27.0
+          },
+          {
+            "year": 1996,
+            "value": 25.5
+          },
+          {
+            "year": 1997,
+            "value": 23.9
+          },
+          {
+            "year": 1998,
+            "value": 22.4
+          },
+          {
+            "year": 1999,
+            "value": 21.0
+          },
+          {
+            "year": 2000,
+            "value": 19.5
+          },
+          {
+            "year": 2001,
+            "value": 19.0
+          },
+          {
+            "year": 2002,
+            "value": 18.5
+          },
+          {
+            "year": 2003,
+            "value": 17.9
+          },
+          {
+            "year": 2004,
+            "value": 17.4
+          },
+          {
+            "year": 2005,
+            "value": 16.9
+          },
+          {
+            "year": 2006,
+            "value": 16.3
+          },
+          {
+            "year": 2007,
+            "value": 15.7
+          },
+          {
+            "year": 2008,
+            "value": 15.1
+          },
+          {
+            "year": 2009,
+            "value": 14.5
+          },
+          {
+            "year": 2010,
+            "value": 13.9
+          },
+          {
+            "year": 2011,
+            "value": 13.5
+          },
+          {
+            "year": 2012,
+            "value": 13.1
+          },
+          {
+            "year": 2013,
+            "value": 12.6
+          },
+          {
+            "year": 2014,
+            "value": 12.2
+          },
+          {
+            "year": 2015,
+            "value": 11.8
+          },
+          {
+            "year": 2016,
+            "value": 11.7
+          },
+          {
+            "year": 2017,
+            "value": 11.6
+          },
+          {
+            "year": 2018,
+            "value": 11.4
+          },
+          {
+            "year": 2019,
+            "value": 11.3
+          },
+          {
+            "year": 2020,
+            "value": 11.2
+          },
+          {
+            "year": 2021,
+            "value": 11.1
+          },
+          {
+            "year": 2022,
+            "value": 11.1
+          },
+          {
+            "year": 2023,
+            "value": 11.1
+          },
+          {
+            "year": 2024,
+            "value": 11.1
+          }
+        ],
+        "incarceration_per_100k": [
+          {
+            "year": 1925,
+            "value": 79.0
+          },
+          {
+            "year": 1926,
+            "value": 84.0
+          },
+          {
+            "year": 1927,
+            "value": 89.0
+          },
+          {
+            "year": 1928,
+            "value": 94.0
+          },
+          {
+            "year": 1929,
+            "value": 99.0
+          },
+          {
+            "year": 1930,
+            "value": 104.0
+          },
+          {
+            "year": 1931,
+            "value": 105.8
+          },
+          {
+            "year": 1932,
+            "value": 107.6
+          },
+          {
+            "year": 1933,
+            "value": 109.4
+          },
+          {
+            "year": 1934,
+            "value": 111.2
+          },
+          {
+            "year": 1935,
+            "value": 113.0
+          },
+          {
+            "year": 1936,
+            "value": 116.6
+          },
+          {
+            "year": 1937,
+            "value": 120.2
+          },
+          {
+            "year": 1938,
+            "value": 123.8
+          },
+          {
+            "year": 1939,
+            "value": 127.4
+          },
+          {
+            "year": 1940,
+            "value": 131.0
+          },
+          {
+            "year": 1941,
+            "value": 124.4
+          },
+          {
+            "year": 1942,
+            "value": 117.8
+          },
+          {
+            "year": 1943,
+            "value": 111.2
+          },
+          {
+            "year": 1944,
+            "value": 104.6
+          },
+          {
+            "year": 1945,
+            "value": 98.0
+          },
+          {
+            "year": 1946,
+            "value": 100.2
+          },
+          {
+            "year": 1947,
+            "value": 102.4
+          },
+          {
+            "year": 1948,
+            "value": 104.6
+          },
+          {
+            "year": 1949,
+            "value": 106.8
+          },
+          {
+            "year": 1950,
+            "value": 109.0
+          },
+          {
+            "year": 1951,
+            "value": 109.6
+          },
+          {
+            "year": 1952,
+            "value": 110.2
+          },
+          {
+            "year": 1953,
+            "value": 110.8
+          },
+          {
+            "year": 1954,
+            "value": 111.4
+          },
+          {
+            "year": 1955,
+            "value": 112.0
+          },
+          {
+            "year": 1956,
+            "value": 113.0
+          },
+          {
+            "year": 1957,
+            "value": 114.0
+          },
+          {
+            "year": 1958,
+            "value": 115.0
+          },
+          {
+            "year": 1959,
+            "value": 116.0
+          },
+          {
+            "year": 1960,
+            "value": 117.0
+          },
+          {
+            "year": 1961,
+            "value": 115.2
+          },
+          {
+            "year": 1962,
+            "value": 113.4
+          },
+          {
+            "year": 1963,
+            "value": 111.6
+          },
+          {
+            "year": 1964,
+            "value": 109.8
+          },
+          {
+            "year": 1965,
+            "value": 108.0
+          },
+          {
+            "year": 1966,
+            "value": 118.6
+          },
+          {
+            "year": 1967,
+            "value": 129.2
+          },
+          {
+            "year": 1968,
+            "value": 139.8
+          },
+          {
+            "year": 1969,
+            "value": 150.4
+          },
+          {
+            "year": 1970,
+            "value": 161.0
+          },
+          {
+            "year": 1971,
+            "value": 151.0
+          },
+          {
+            "year": 1972,
+            "value": 141.0
+          },
+          {
+            "year": 1973,
+            "value": 131.0
+          },
+          {
+            "year": 1974,
+            "value": 121.0
+          },
+          {
+            "year": 1975,
+            "value": 111.0
+          },
+          {
+            "year": 1976,
+            "value": 116.6
+          },
+          {
+            "year": 1977,
+            "value": 122.2
+          },
+          {
+            "year": 1978,
+            "value": 127.8
+          },
+          {
+            "year": 1979,
+            "value": 133.4
+          },
+          {
+            "year": 1980,
+            "value": 139.0
+          },
+          {
+            "year": 1981,
+            "value": 151.6
+          },
+          {
+            "year": 1982,
+            "value": 164.2
+          },
+          {
+            "year": 1983,
+            "value": 176.8
+          },
+          {
+            "year": 1984,
+            "value": 189.4
+          },
+          {
+            "year": 1985,
+            "value": 202.0
+          },
+          {
+            "year": 1986,
+            "value": 221.0
+          },
+          {
+            "year": 1987,
+            "value": 240.0
+          },
+          {
+            "year": 1988,
+            "value": 259.0
+          },
+          {
+            "year": 1989,
+            "value": 278.0
+          },
+          {
+            "year": 1990,
+            "value": 297.0
+          },
+          {
+            "year": 1991,
+            "value": 319.8
+          },
+          {
+            "year": 1992,
+            "value": 342.6
+          },
+          {
+            "year": 1993,
+            "value": 365.4
+          },
+          {
+            "year": 1994,
+            "value": 388.2
+          },
+          {
+            "year": 1995,
+            "value": 411.0
+          },
+          {
+            "year": 1996,
+            "value": 424.4
+          },
+          {
+            "year": 1997,
+            "value": 437.8
+          },
+          {
+            "year": 1998,
+            "value": 451.2
+          },
+          {
+            "year": 1999,
+            "value": 464.6
+          },
+          {
+            "year": 2000,
+            "value": 478.0
+          },
+          {
+            "year": 2001,
+            "value": 480.6
+          },
+          {
+            "year": 2002,
+            "value": 483.2
+          },
+          {
+            "year": 2003,
+            "value": 485.8
+          },
+          {
+            "year": 2004,
+            "value": 488.4
+          },
+          {
+            "year": 2005,
+            "value": 491.0
+          },
+          {
+            "year": 2006,
+            "value": 496.0
+          },
+          {
+            "year": 2007,
+            "value": 501.0
+          },
+          {
+            "year": 2008,
+            "value": 506.0
+          },
+          {
+            "year": 2009,
+            "value": 503.0
+          },
+          {
+            "year": 2010,
+            "value": 500.0
+          },
+          {
+            "year": 2011,
+            "value": 494.2
+          },
+          {
+            "year": 2012,
+            "value": 488.4
+          },
+          {
+            "year": 2013,
+            "value": 482.6
+          },
+          {
+            "year": 2014,
+            "value": 476.8
+          },
+          {
+            "year": 2015,
+            "value": 471.0
+          },
+          {
+            "year": 2016,
+            "value": 448.4
+          },
+          {
+            "year": 2017,
+            "value": 425.8
+          },
+          {
+            "year": 2018,
+            "value": 403.2
+          },
+          {
+            "year": 2019,
+            "value": 380.6
+          },
+          {
+            "year": 2020,
+            "value": 358.0
+          },
+          {
+            "year": 2021,
+            "value": 401.2
+          },
+          {
+            "year": 2022,
+            "value": 444.5
+          },
+          {
+            "year": 2023,
+            "value": 487.8
+          },
+          {
+            "year": 2024,
+            "value": 531.0
+          }
+        ]
+      },
+      "crossover_year": 1972,
+      "annotations": {
+        "peak_beds": {
+          "year": 1950,
+          "value": 338.7,
+          "label": "Peak: 338.7/100k (1950)"
+        },
+        "current_beds": {
+          "year": 2024,
+          "value": 11.1,
+          "label": "Today: 11.1/100k"
+        },
+        "decline": "96.7% decline",
+        "peak_incarceration": {
+          "year": 2024,
+          "value": 531.0,
+          "label": "Peak: 531.0/100k (2024)"
+        }
+      },
+      "policy_events": [
+        {
+          "year": 1946,
+          "event": "National Mental Health Act",
+          "type": "legislation",
+          "description": "Created NIMH; first federal investment in mental health research."
+        },
+        {
+          "year": 1955,
+          "event": "Peak institutional beds",
+          "type": "milestone",
+          "description": "558,922 psychiatric beds in state hospitals \u2014 all-time peak."
+        },
+        {
+          "year": 1955,
+          "event": "Thorazine introduced",
+          "type": "medical",
+          "description": "Chlorpromazine (Thorazine) enters widespread use; first antipsychotic."
+        },
+        {
+          "year": 1963,
+          "event": "Community Mental Health Act",
+          "type": "legislation",
+          "description": "JFK signs CMHA; federal funding for community centers, beginning deinstitutionalization."
+        },
+        {
+          "year": 1965,
+          "event": "Medicaid/Medicare enacted",
+          "type": "legislation",
+          "description": "IMD exclusion bars Medicaid from paying for psychiatric hospitals with 16+ beds."
+        },
+        {
+          "year": 1967,
+          "event": "Lanterman-Petris-Short Act (CA)",
+          "type": "legislation",
+          "description": "California model: ends involuntary commitment except for imminent danger."
+        },
+        {
+          "year": 1971,
+          "event": "Wyatt v. Stickney",
+          "type": "court",
+          "description": "Court rules patients have right to adequate treatment or release."
+        },
+        {
+          "year": 1975,
+          "event": "O'Connor v. Donaldson",
+          "type": "court",
+          "description": "Supreme Court: cannot confine non-dangerous mentally ill who can survive in community."
+        },
+        {
+          "year": 1980,
+          "event": "Mental Health Systems Act",
+          "type": "legislation",
+          "description": "Carter signs comprehensive reform act \u2014 repealed within a year."
+        },
+        {
+          "year": 1981,
+          "event": "OBRA / Block Grants",
+          "type": "legislation",
+          "description": "Reagan replaces MHSA with block grants; 30% federal funding cut."
+        },
+        {
+          "year": 1988,
+          "event": "McKinney-Vento Act expanded",
+          "type": "legislation",
+          "description": "Federal homeless assistance programs; recognition of mental illness in homelessness."
+        },
+        {
+          "year": 1990,
+          "event": "ADA enacted",
+          "type": "legislation",
+          "description": "Americans with Disabilities Act includes mental health conditions."
+        },
+        {
+          "year": 1996,
+          "event": "Mental Health Parity Act",
+          "type": "legislation",
+          "description": "First federal parity law \u2014 limited to annual/lifetime dollar limits."
+        },
+        {
+          "year": 1999,
+          "event": "Olmstead v. L.C.",
+          "type": "court",
+          "description": "Supreme Court rules unjustified institutionalization is discrimination under ADA."
+        },
+        {
+          "year": 2008,
+          "event": "MHPAEA",
+          "type": "legislation",
+          "description": "Mental Health Parity and Addiction Equity Act \u2014 comprehensive parity requirements."
+        },
+        {
+          "year": 2014,
+          "event": "ACA mental health provisions",
+          "type": "legislation",
+          "description": "ACA requires mental health as essential benefit; Medicaid expansion."
+        },
+        {
+          "year": 2022,
+          "event": "988 Suicide & Crisis Lifeline",
+          "type": "legislation",
+          "description": "Three-digit crisis line launches nationally as alternative to 911."
+        }
+      ],
+      "stats": {
+        "peak_beds_total": 558922,
+        "peak_beds_year": 1955,
+        "current_beds_total": 37650,
+        "current_beds_year": 2024,
+        "decline_percent": 96.7,
+        "beds_per_100k_1955": 337,
+        "beds_per_100k_2024": 11
+      }
+    },
+    "transfer": {
+      "title": "The Transfer",
+      "subtitle": "Where did the deinstitutionalized go?",
+      "beds_lost": 521272,
+      "peak_year": 1955,
+      "peak_beds": 558922,
+      "current_beds": 37650,
+      "systems": [
+        {
+          "id": "jails_prisons",
+          "name": "Jails & Prisons",
+          "icon": "bars",
+          "estimated_smi": 383000,
+          "share_pct": 35,
+          "description": "An estimated 383,000 people with serious mental illness are incarcerated \u2014 roughly 10x the number in state psychiatric hospitals.",
+          "key_stat": "10x more SMI in jails than hospitals",
+          "source": "Treatment Advocacy Center (2014); DOJ Bureau of Justice Statistics",
+          "color": "#C0392B",
+          "details": {
+            "state_prisons_smi_pct": 37,
+            "local_jails_smi_pct": 44,
+            "median_wait_competency": "114 days"
+          }
+        },
+        {
+          "id": "homelessness",
+          "name": "Homelessness",
+          "icon": "tent",
+          "estimated_smi": 172000,
+          "share_pct": 20,
+          "description": "Roughly one-third of the 653,000 people experiencing homelessness on any given night have a serious mental illness.",
+          "key_stat": "1 in 3 homeless have SMI",
+          "source": "HUD 2024 Annual Homeless Assessment; SAMHSA",
+          "color": "#E67E22",
+          "details": {
+            "total_homeless_2024": 653104,
+            "smi_share": 0.33,
+            "unsheltered_smi_pct": 39
+          }
+        },
+        {
+          "id": "nursing_homes",
+          "name": "Nursing Homes",
+          "icon": "building",
+          "estimated_smi": 200000,
+          "share_pct": 15,
+          "description": "IMD exclusion pushed patients into nursing homes. An estimated 200,000 nursing home residents have SMI as a primary diagnosis.",
+          "key_stat": "200,000 SMI in nursing homes",
+          "source": "CMS Minimum Data Set; Mechanic & Rochefort (1990)",
+          "color": "#8E44AD",
+          "details": {
+            "total_nursing_home_residents": 1300000,
+            "smi_primary_pct": 15
+          }
+        },
+        {
+          "id": "emergency_rooms",
+          "name": "Emergency Rooms",
+          "icon": "hospital",
+          "estimated_annual_visits": 12000000,
+          "share_pct": 15,
+          "description": "12 million psychiatric ER visits per year. Average boarding time: 8+ hours. ERs have become de facto psychiatric holding facilities.",
+          "key_stat": "12M psychiatric ER visits/year",
+          "source": "ACEP; Owens et al. (2017); SAMHSA",
+          "color": "#E74C3C",
+          "details": {
+            "avg_boarding_hours": 8,
+            "pct_er_visits_psychiatric": 5,
+            "repeat_visit_rate": 0.4
+          }
+        },
+        {
+          "id": "community_unsupported",
+          "name": "Community (Unsupported)",
+          "icon": "home",
+          "estimated_smi": 5000000,
+          "share_pct": 15,
+          "description": "~5 million adults with SMI receive no treatment. Many cycle through ERs, jails, and shelters. The 'treatment gap' averages 11 years.",
+          "key_stat": "11-year average treatment gap",
+          "source": "NAMI; SAMHSA National Survey on Drug Use and Health",
+          "color": "#95A5A6",
+          "details": {
+            "smi_no_treatment_pct": 40,
+            "avg_treatment_gap_years": 11,
+            "total_smi_adults": 14200000
+          }
+        }
+      ],
+      "summary_stats": {
+        "smi_in_jails_vs_hospitals": "10:1",
+        "total_smi_adults": 14200000,
+        "receiving_no_treatment": 5000000,
+        "treatment_gap_years": 11
+      }
+    },
+    "cost": {
+      "title": "The Cost",
+      "subtitle": "What America pays per person, per system",
+      "systems": [
+        {
+          "name": "Outpatient Mental Health",
+          "annual_cost": 4500,
+          "category": "treatment",
+          "color": "#4A90D9",
+          "description": "Community-based outpatient care including therapy and medication management.",
+          "effectiveness": "Most cost-effective for mild-to-moderate SMI",
+          "multiplier_vs_outpatient": 1.0
+        },
+        {
+          "name": "Supported Housing",
+          "annual_cost": 18000,
+          "category": "treatment",
+          "color": "#5DADE2",
+          "description": "Housing with wraparound mental health services.",
+          "effectiveness": "Reduces hospitalization by 58%, incarceration by 40%",
+          "multiplier_vs_outpatient": 4.0
+        },
+        {
+          "name": "State Psychiatric Hospital",
+          "annual_cost": 32000,
+          "category": "treatment",
+          "color": "#2E86C1",
+          "description": "Inpatient psychiatric care in state-run facilities.",
+          "effectiveness": "Necessary for acute and long-term severe cases",
+          "multiplier_vs_outpatient": 7.1
+        },
+        {
+          "name": "Nursing Home",
+          "annual_cost": 52000,
+          "category": "warehousing",
+          "color": "#8E44AD",
+          "description": "Long-term care facilities housing SMI patients, often inappropriately.",
+          "effectiveness": "Not designed for psychiatric care; poor outcomes",
+          "multiplier_vs_outpatient": 11.6
+        },
+        {
+          "name": "County/City Jail",
+          "annual_cost": 60000,
+          "category": "incarceration",
+          "color": "#E67E22",
+          "description": "Local jails where 44% of inmates have diagnosed mental illness.",
+          "effectiveness": "No therapeutic value; high recidivism",
+          "multiplier_vs_outpatient": 13.3
+        },
+        {
+          "name": "State Prison",
+          "annual_cost": 85000,
+          "category": "incarceration",
+          "color": "#C0392B",
+          "description": "State prisons where 37% of inmates have mental health conditions.",
+          "effectiveness": "19x cost of outpatient treatment; minimal psychiatric care",
+          "multiplier_vs_outpatient": 18.9
+        },
+        {
+          "name": "ER Psychiatric Boarding",
+          "annual_cost": 803000,
+          "daily_cost": 2200,
+          "category": "crisis",
+          "color": "#E74C3C",
+          "description": "Psychiatric patients held in ERs awaiting bed placement. Average stay: 8+ hours, some days.",
+          "effectiveness": "Most expensive per-day option; no treatment value",
+          "multiplier_vs_outpatient": 178.4
+        }
+      ],
+      "spending_estimates": {
+        "criminal_justice_smi_annual": 15000000000,
+        "er_psychiatric_annual": 8400000000,
+        "medicaid_smi_annual": 68000000000,
+        "community_mh_federal": 5500000000,
+        "note": "Criminal justice costs for SMI exceed community mental health spending by ~3:1"
+      },
+      "key_finding": "America spends 19x more to incarcerate a person with SMI than to treat them in the community.",
+      "stats": {
+        "outpatient_cost": 4500,
+        "prison_cost": 85000,
+        "cost_ratio": "19:1",
+        "er_daily": 2200
+      }
+    },
+    "encounter": {
+      "title": "The Encounter",
+      "subtitle": "When police become the mental health system",
+      "core_stat": {
+        "value": 16,
+        "unit": "x",
+        "description": "People with untreated mental illness are 16 times more likely to be killed during a police encounter than the general population.",
+        "source": "Treatment Advocacy Center (2015)"
+      },
+      "fatal_force": {
+        "total_fatal_shootings_2015_2024": 10958,
+        "mental_illness_indicated_pct": 25,
+        "estimated_smi_deaths": 2740,
+        "annual_avg_smi_deaths": 274,
+        "source": "Washington Post Fatal Force Database (2015-2024)",
+        "note": "25% of fatal police shootings involve people with signs of mental illness."
+      },
+      "crisis_calls": {
+        "annual_911_mental_health": 2000000,
+        "pct_police_calls_mental_health": 10,
+        "avg_officer_time_per_crisis": "2-4 hours",
+        "annual_cost_police_response": 918000000,
+        "source": "NAMI; DOJ Community Oriented Policing Services"
+      },
+      "alternatives": {
+        "crisis_intervention_teams": {
+          "departments_with_cit": 2700,
+          "use_of_force_reduction": 28,
+          "arrest_reduction": 58,
+          "description": "CIT-trained officers reduce arrests by 58% and use of force by 28%."
+        },
+        "co_responder_models": {
+          "active_programs": 400,
+          "er_diversion_rate": 60,
+          "description": "Mental health professional + officer teams divert 60% from ERs."
+        },
+        "988_lifeline": {
+          "calls_2023": 5700000,
+          "texts_2023": 2200000,
+          "description": "988 received 5.7 million calls and 2.2 million texts in 2023."
+        }
+      },
+      "timeline": [
+        {
+          "year": 2015,
+          "fatal_smi": 264,
+          "note": "WaPo database begins tracking"
+        },
+        {
+          "year": 2016,
+          "fatal_smi": 253
+        },
+        {
+          "year": 2017,
+          "fatal_smi": 261
+        },
+        {
+          "year": 2018,
+          "fatal_smi": 268
+        },
+        {
+          "year": 2019,
+          "fatal_smi": 278
+        },
+        {
+          "year": 2020,
+          "fatal_smi": 284,
+          "note": "COVID-19 crisis escalation"
+        },
+        {
+          "year": 2021,
+          "fatal_smi": 296
+        },
+        {
+          "year": 2022,
+          "fatal_smi": 291,
+          "note": "988 Lifeline launches"
+        },
+        {
+          "year": 2023,
+          "fatal_smi": 275
+        },
+        {
+          "year": 2024,
+          "fatal_smi": 270
+        }
+      ],
+      "stats": {
+        "sixteen_x": "16x more likely to be killed by police",
+        "quarter_fatal": "1 in 4 fatal police shootings involve mental illness",
+        "two_million_calls": "2 million mental health 911 calls per year",
+        "cit_arrest_reduction": "58% arrest reduction with CIT training"
+      }
+    }
+  },
+  "confidence": {
+    "beds_1955_peak": {
+      "level": "high",
+      "note": "Multiple corroborating sources"
+    },
+    "incarceration_rates": {
+      "level": "high",
+      "note": "BJS official statistics"
+    },
+    "smi_in_jails": {
+      "level": "high",
+      "note": "DOJ surveys + TAC analysis"
+    },
+    "cost_figures": {
+      "level": "candidate",
+      "note": "Ranges vary by state; national averages"
+    },
+    "16x_encounter": {
+      "level": "candidate",
+      "note": "TAC 2015 study; methodology debated"
+    },
+    "homelessness_smi": {
+      "level": "candidate",
+      "note": "PIT counts undercount; definitions vary"
+    }
+  }
+}
