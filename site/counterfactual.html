@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Counterfactual · The Untreated</title>
+<meta name="description" content="What if the 1963 Community Mental Health Centers Act had been fully funded? 500 alternative trajectories.">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="splash" id="splash" onclick="if(window._splashReady)dismissSplash()">
+  <a href="https://onehundredyears.report" style="position:absolute;top:24px;left:24px;text-decoration:none;border:none;" onclick="event.stopPropagation()">
+    <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+  </a>
+  <div class="splash-number" style="display:flex;gap:80px;align-items:baseline;">
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#4A90D9;">558,922</span>
+    <span style="font-family:'Playfair Display',serif;font-size:min(100px,15vw);font-weight:300;color:#C0392B;">37,650</span>
+  </div>
+  <div class="splash-label" style="display:flex;gap:80px;font-family:'Space Mono',monospace;font-size:13px;letter-spacing:0.08em;margin-top:12px;">
+    <span style="color:rgba(74,144,217,0.6);">psychiatric beds &middot; 1955</span>
+    <span style="color:rgba(192,57,43,0.6);">psychiatric beds &middot; today</span>
+  </div>
+  <div class="splash-title" style="font-family:'Playfair Display',serif;font-size:min(36px,5vw);font-weight:500;color:#E8E8F0;margin-top:56px;text-align:center;">One Hundred Years of The Untreated</div>
+  <div class="splash-thesis" style="font-family:'Source Serif 4',serif;font-size:15px;color:rgba(232,232,240,0.45);text-align:center;max-width:560px;line-height:1.6;margin-top:16px;font-style:italic;">America closed its psychiatric hospitals. It never built what was supposed to replace them.</div>
+  <div class="splash-enter" style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(232,232,240,0.4);margin-top:64px;">ENTER THE RECORD &rarr;</div>
+</div>
+<script>window._splashReady=false;if(sessionStorage.getItem('corpus_the-untreated_seen')){document.getElementById('splash').style.display='none';}else{setTimeout(function(){window._splashReady=true;},3500);document.addEventListener('keydown',dismissSplash);}function dismissSplash(){sessionStorage.setItem('corpus_the-untreated_seen','1');var s=document.getElementById('splash');s.classList.add('out');setTimeout(function(){s.style.display='none';},500);}</script>
+
+<main class="shell">
+
+<!-- ====================== MASTHEAD ====================== -->
+<header class="masthead">
+  <div style="display:flex;align-items:flex-start;gap:16px;">
+    <a href="https://onehundredyears.report" style="text-decoration:none;flex-shrink:0;margin-top:4px;border:none;">
+      <svg width="14" height="56" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="8" x2="7" y2="8" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="16" x2="7" y2="16" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="32" x2="7" y2="32" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="40" x2="7" y2="40" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="56" x2="7" y2="56" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="64" x2="7" y2="64" stroke="#C9A84C" stroke-width="0.8"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg>
+    </a>
+    <div>
+      <div class="series">One Hundred Years of</div>
+      <h1>The <em>Untreated</em></h1>
+      <div class="sub">What if the 1963 Community Mental Health Centers Act had been fully funded? 500 plausible alternative histories.</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><span class="k">Report</span> &nbsp; <span class="v">06 / 10</span></div>
+    <div><span class="k">Extension</span> &nbsp; <span class="v">02 &middot; Counterfactual</span></div>
+    <div><span class="k">Trajectories</span> &nbsp; <span class="v">500</span></div>
+    <div><span class="k">Window</span> &nbsp; <span class="v">1963 &mdash; 2024</span></div>
+  </div>
+</header>
+
+<!-- ====================== TABS ====================== -->
+<nav class="tabs">
+  <a class="tab" href="index.html">The Beds</a>
+  <a class="tab" href="transfer.html">Transfer</a>
+  <a class="tab" href="geography.html">Geography</a>
+  <a class="tab" href="cost.html">The Cost</a>
+  <a class="tab" href="encounter.html">Encounter</a>
+  <a class="tab active" href="counterfactual.html">Counterfactual</a>
+  <a class="tab" href="pipeline.html">Pipeline</a>
+  <a class="tab" href="method.html">Method</a>
+</nav>
+
+<!-- ====================== STAT ROW ====================== -->
+<section class="statrow six" id="stat-row">
+  <div class="stat">
+    <div class="label">Actual beds &middot; 2024</div>
+    <div class="value red" id="s-actual-beds">11</div>
+    <div class="foot">per 100k &middot; current</div>
+  </div>
+  <div class="stat">
+    <div class="label">Counterfactual beds &middot; 2024</div>
+    <div class="value blue" id="s-cf-beds">&mdash;</div>
+    <div class="foot" id="s-cf-beds-ci">median [90% CI]</div>
+  </div>
+  <div class="stat">
+    <div class="label">Beds gap</div>
+    <div class="value blue" id="s-beds-gap">&mdash;</div>
+    <div class="foot">per 100k never replaced</div>
+  </div>
+  <div class="stat">
+    <div class="label">Actual incarceration</div>
+    <div class="value red" id="s-actual-incar">&mdash;</div>
+    <div class="foot">per 100k &middot; 2024</div>
+  </div>
+  <div class="stat">
+    <div class="label">Counterfactual incarceration</div>
+    <div class="value blue" id="s-cf-incar">&mdash;</div>
+    <div class="foot" id="s-cf-incar-ci">median [90% CI]</div>
+  </div>
+  <div class="stat">
+    <div class="label">People in treatment, not prison</div>
+    <div class="value amber" id="s-people">&mdash;</div>
+    <div class="foot" id="s-people-ci">median [90% CI]</div>
+  </div>
+</section>
+
+<!-- ====================== BEDS FAN CHART ====================== -->
+<section class="section">
+  <div class="section-head">
+    <span class="label">Figure 01</span>
+    <span class="rule"></span>
+    <span class="aside">500 trajectories &middot; 1963&mdash;2024</span>
+  </div>
+  <h2 class="section-title">Psychiatric Beds: <em>Actual</em> vs. <em class="red">Unfunded Promise</em></h2>
+  <div class="section-lede">
+    The blue fan shows 500 plausible trajectories if community mental health centers had actually replaced closing state hospitals. The red line is what happened.
+  </div>
+
+  <div class="twocol">
+    <div class="chart-wrap">
+      <svg id="beds-chart" viewBox="0 0 1200 460" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+    <div>
+      <div class="card" style="border:1px solid var(--rule);margin-top:22px;">
+        <div class="card-label">The model</div>
+        <div class="card-title" style="font-size:18px;">Sigmoid Community Ramp-Up</div>
+        <div class="card-body" style="font-size:13px;line-height:1.6;">
+          <p style="margin:0 0 10px;">Each trajectory draws a replacement fraction from Normal(0.70, 0.10) &mdash; the share of closed state hospital beds replaced by community capacity.</p>
+          <p style="margin:0 0 10px;">Community centers ramp up on a sigmoid curve from 1965 to 1980, reaching full capacity by the late 1970s.</p>
+          <p style="margin:0 0 10px;">Per-year stochastic noise: Normal(0, 5 beds/100k).</p>
+          <p style="margin:0;">The fan shows the 5th, 25th, 50th, 75th, and 95th percentiles across 500 runs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== INCARCERATION FAN CHART ====================== -->
+<section class="section">
+  <div class="section-head">
+    <span class="label">Figure 02</span>
+    <span class="rule"></span>
+    <span class="aside">Penrose's Law applied</span>
+  </div>
+  <h2 class="section-title">Incarceration: The <em class="red">Cost</em> of Unfunded Replacement</h2>
+  <div class="section-lede">
+    Penrose's Law: psychiatric beds and incarceration are inversely coupled. Each bed/100k lost corresponds to roughly one additional prisoner/100k. The gap between these lines is measured in human lives.
+  </div>
+
+  <div class="twocol">
+    <div class="chart-wrap">
+      <svg id="incar-chart" viewBox="0 0 1200 460" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+    <div>
+      <div class="card" style="border:1px solid var(--rule);margin-top:22px;">
+        <div class="card-label">The gap in 2024</div>
+        <div class="card-stat red" id="card-incar-gap">&mdash;</div>
+        <div class="card-body" style="font-size:13px;line-height:1.6;">
+          <p style="margin:0 0 10px;">Fewer people per 100,000 would be incarcerated if community mental health infrastructure had been funded.</p>
+          <p style="margin:0;">At a population of 340 million, that median gap represents <strong id="card-people-count">&mdash;</strong> people who are in prison today who could have been in treatment.</p>
+        </div>
+      </div>
+      <div class="card" style="border:1px solid var(--rule);margin-top:1px;">
+        <div class="card-label">Penrose's Law</div>
+        <div class="card-title" style="font-size:18px;">The Inverse Relationship</div>
+        <div class="card-body" style="font-size:13px;line-height:1.6;">
+          <p style="margin:0 0 10px;">Lionel Penrose (1939) observed that psychiatric hospital populations and prison populations move inversely. As one system empties, the other fills.</p>
+          <p style="margin:0;">This model applies a 1:1 ratio: each bed/100k lost = 1/100k more incarcerated. Conservative estimates suggest the true ratio may be higher.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== METHODOLOGY ====================== -->
+<section class="section">
+  <div class="section-head">
+    <span class="label">Methodology</span>
+    <span class="rule"></span>
+  </div>
+  <h2 class="section-title">How the <em>counterfactual</em> was constructed</h2>
+  <div class="prose">
+    <h3>The question</h3>
+    <p>What would American mental health infrastructure look like today if the Community Mental Health Centers Act of 1963 had been fully funded &mdash; if the community capacity promised as replacement for state hospitals had actually been built?</p>
+
+    <h3>The model</h3>
+    <p>For each of 500 trajectories, we sample a <span class="highlight">replacement fraction</span> from Normal(0.70, 0.10), clipped to [0.30, 0.95]. This represents the share of closed state hospital beds that would have been replaced by community mental health center capacity.</p>
+    <p>Community capacity ramps up on a <span class="highlight">sigmoid curve</span> beginning in 1965 (two years after the Act) and reaching full target capacity by 1980. This reflects realistic construction and staffing timelines for a national network of community centers.</p>
+    <p>Each year includes stochastic noise drawn from Normal(0, 5 beds/100k) to capture real-world variance in implementation, local politics, and funding fluctuations.</p>
+
+    <h3>Incarceration coupling</h3>
+    <p>The incarceration counterfactual applies <span class="highlight red">Penrose's Law</span> at a 1:1 ratio: each additional bed per 100,000 in the counterfactual reduces the incarceration rate by 1 per 100,000. This is consistent with research by Raphael & Stoll (2013) and Primeau et al. (2013) showing that psychiatric deinstitutionalization accounts for a significant fraction of mass incarceration.</p>
+
+    <h3>What this is not</h3>
+    <p>This is not a prediction. It is a structured exploration of a specific policy counterfactual. The model intentionally uses simple, transparent assumptions rather than complex causal inference. The point is not precision &mdash; it is to make visible the scale of what was lost when Congress promised community mental health infrastructure and never funded it.</p>
+
+    <h3>Limitations</h3>
+    <p>&bull; Penrose's Law is an empirical regularity, not a causal law. The true relationship between beds and incarceration involves many mediating factors.</p>
+    <p>&bull; The replacement fraction assumes a single national parameter; in reality, implementation would have varied dramatically by state.</p>
+    <p>&bull; The model does not account for other drivers of mass incarceration (War on Drugs, mandatory minimums, policing changes).</p>
+    <p>&bull; Community treatment capacity is not equivalent to institutional beds; the quality and nature of care would differ substantially.</p>
+  </div>
+</section>
+
+<footer class="bb-foot">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <a href="https://onehundredyears.report" style="display:flex;align-items:center;border:none;"><svg width="12" height="36" viewBox="0 0 18 72"><line x1="0" y1="0" x2="0" y2="72" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="0" x2="12" y2="0" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="24" x2="12" y2="24" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="48" x2="12" y2="48" stroke="#C9A84C" stroke-width="1.5"/><line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" stroke-width="1.5"/></svg></a>
+    <span>One Hundred Years</span>
+  </div>
+  <div>MIT &middot; <a href="https://github.com/doctorbrownphd/hundred-years-untreated" style="border:none;color:var(--gold);">GitHub</a></div>
+</footer>
+
+</main>
+
+<button id="theme-toggle" onclick="toggleTheme()" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:var(--ink-2);color:var(--vellum-dim);border:1px solid var(--rule);font-family:var(--mono);font-size:16px;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.3);">&#9728;</button>
+<script>
+function toggleTheme(){var h=document.documentElement,c=h.getAttribute('data-theme')||'dark',n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('untreated-theme',n);document.getElementById('theme-toggle').innerHTML=n==='dark'?'&#9728;':'&#9790;';}
+(function(){var s=localStorage.getItem('untreated-theme')||'dark';document.documentElement.setAttribute('data-theme',s);if(s==='light')document.getElementById('theme-toggle').innerHTML='&#9790;';})();
+</script>
+
+<script src="counterfactual-data.js"></script>
+<script>
+(function(){
+  var D = window.COUNTERFACTUAL;
+  if (!D) return;
+
+  var years = D.years;
+  var actualBeds = D.actual.beds_per_100k;
+  var actualIncar = D.actual.incarceration_rate_per_100k;
+  var cfBeds = D.counterfactual_beds;
+  var cfIncar = D.counterfactual_incarceration;
+  var summary = D.summary;
+
+  // ─── Populate stat row ──────────────────────────────────────
+  document.getElementById('s-actual-beds').textContent = summary.counterfactual_beds_2024.actual;
+  document.getElementById('s-cf-beds').textContent = summary.counterfactual_beds_2024.median;
+  document.getElementById('s-cf-beds-ci').textContent =
+    '[' + summary.counterfactual_beds_2024.p05 + ', ' + summary.counterfactual_beds_2024.p95 + '] 90% CI';
+  document.getElementById('s-beds-gap').textContent =
+    Math.round(summary.counterfactual_beds_2024.median - summary.counterfactual_beds_2024.actual);
+  document.getElementById('s-actual-incar').textContent = summary.counterfactual_incar_2024.actual;
+  document.getElementById('s-cf-incar').textContent = summary.counterfactual_incar_2024.median;
+  document.getElementById('s-cf-incar-ci').textContent =
+    '[' + summary.counterfactual_incar_2024.p05 + ', ' + summary.counterfactual_incar_2024.p95 + '] 90% CI';
+
+  function formatK(n) {
+    if (Math.abs(n) >= 1000) return Math.round(n/1000).toLocaleString() + 'k';
+    return n.toLocaleString();
+  }
+  document.getElementById('s-people').textContent = formatK(summary.additional_people_in_treatment.median);
+  document.getElementById('s-people-ci').textContent =
+    formatK(summary.additional_people_in_treatment.ci90[0]) + ' \u2013 ' +
+    formatK(summary.additional_people_in_treatment.ci90[1]) + ' (90% CI)';
+
+  document.getElementById('card-incar-gap').textContent =
+    '\u2212' + Math.round(summary.counterfactual_incar_2024.actual - summary.counterfactual_incar_2024.median) + '/100k';
+  document.getElementById('card-people-count').textContent =
+    summary.fewer_people_incarcerated.median.toLocaleString();
+
+  // ─── Chart drawing helpers ──────────────────────────────────
+  var W = 1200, H = 460;
+  var pad = {t:40, r:40, b:60, l:70};
+  var cw = W - pad.l - pad.r, ch = H - pad.t - pad.b;
+
+  var xMin = years[0], xMax = years[years.length-1];
+  function sx(yr){ return pad.l + (yr - xMin)/(xMax - xMin) * cw; }
+
+  function buildPath(arr, syFn) {
+    return arr.map(function(v,i){ return (i===0?'M':'L')+sx(years[i]).toFixed(1)+','+syFn(v).toFixed(1); }).join(' ');
+  }
+
+  function buildArea(upper, lower, syFn) {
+    var fwd = upper.map(function(v,i){ return (i===0?'M':'L')+sx(years[i]).toFixed(1)+','+syFn(v).toFixed(1); }).join(' ');
+    var rev = '';
+    for(var i=lower.length-1; i>=0; i--){
+      rev += 'L'+sx(years[i]).toFixed(1)+','+syFn(lower[i]).toFixed(1);
+    }
+    return fwd + rev + 'Z';
+  }
+
+  function gridHTML(syFn, yMax, yStep) {
+    var html = '';
+    for(var y = 0; y <= yMax; y += yStep){
+      html += '<line x1="'+pad.l+'" y1="'+syFn(y).toFixed(1)+'" x2="'+(W-pad.r)+'" y2="'+syFn(y).toFixed(1)+'" stroke="var(--rule)" stroke-width="0.5"/>';
+      html += '<text x="'+(pad.l-10)+'" y="'+(syFn(y)+4).toFixed(1)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="10" text-anchor="end">'+y+'</text>';
+    }
+    for(var d = 1965; d <= xMax; d += 10){
+      html += '<text x="'+sx(d).toFixed(1)+'" y="'+(H-pad.b+20)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="10" text-anchor="middle">'+d+'</text>';
+    }
+    return html;
+  }
+
+  // ─── Beds Fan Chart ─────────────────────────────────────────
+  (function(){
+    var yMax = 350;
+    function sy(v){ return pad.t + (1 - v/yMax) * ch; }
+
+    var interventionX = sx(1963);
+    var html = gridHTML(sy, yMax, 50);
+
+    // Intervention line
+    html += '<line x1="'+interventionX.toFixed(1)+'" y1="'+pad.t+'" x2="'+interventionX.toFixed(1)+'" y2="'+(H-pad.b)+'" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4,4"/>';
+    html += '<text x="'+(interventionX+6).toFixed(1)+'" y="'+(pad.t+14)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9" letter-spacing="0.06em">1963 CMHC ACT</text>';
+
+    // Fan bands (outer to inner for correct layering)
+    html += '<path d="'+buildArea(cfBeds.p95, cfBeds.p05, sy)+'" fill="rgba(74,144,217,0.08)" stroke="none"/>';
+    html += '<path d="'+buildArea(cfBeds.p75, cfBeds.p25, sy)+'" fill="rgba(74,144,217,0.15)" stroke="none"/>';
+
+    // Band edge lines
+    html += '<path d="'+buildPath(cfBeds.p95, sy)+'" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfBeds.p05, sy)+'" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfBeds.p75, sy)+'" fill="none" stroke="rgba(74,144,217,0.3)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfBeds.p25, sy)+'" fill="none" stroke="rgba(74,144,217,0.3)" stroke-width="0.8"/>';
+
+    // Counterfactual median
+    html += '<path d="'+buildPath(cfBeds.p50, sy)+'" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linejoin="round"/>';
+
+    // Actual line
+    html += '<path d="'+buildPath(actualBeds, sy)+'" fill="none" stroke="var(--red)" stroke-width="2.5" stroke-linejoin="round"/>';
+
+    // End labels
+    var lastIdx = years.length - 1;
+    var lastX = sx(years[lastIdx]);
+    html += '<circle cx="'+lastX.toFixed(1)+'" cy="'+sy(cfBeds.p50[lastIdx]).toFixed(1)+'" r="4" fill="var(--blue)"/>';
+    html += '<text x="'+(lastX-60).toFixed(1)+'" y="'+(sy(cfBeds.p50[lastIdx])-12).toFixed(1)+'" fill="var(--blue)" font-family="Space Mono,monospace" font-size="10" text-anchor="end">CF: '+Math.round(cfBeds.p50[lastIdx])+'/100k</text>';
+
+    html += '<circle cx="'+lastX.toFixed(1)+'" cy="'+sy(actualBeds[lastIdx]).toFixed(1)+'" r="4" fill="var(--red)"/>';
+    html += '<text x="'+(lastX-60).toFixed(1)+'" y="'+(sy(actualBeds[lastIdx])+16).toFixed(1)+'" fill="var(--red)" font-family="Space Mono,monospace" font-size="10" text-anchor="end">ACTUAL: '+Math.round(actualBeds[lastIdx])+'/100k</text>';
+
+    // Legend
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+10)+'" width="12" height="3" fill="var(--blue)"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+14)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">COUNTERFACTUAL (MEDIAN)</text>';
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+26)+'" width="12" height="3" fill="var(--red)"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+30)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">ACTUAL</text>';
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+42)+'" width="12" height="8" fill="rgba(74,144,217,0.15)" stroke="rgba(74,144,217,0.3)" stroke-width="0.5"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+50)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">50% / 90% CI</text>';
+
+    // Axis label
+    html += '<text x="'+pad.l+'" y="'+(pad.t-12)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="10" letter-spacing="0.1em">BEDS PER 100,000</text>';
+
+    document.getElementById('beds-chart').innerHTML = html;
+  })();
+
+  // ─── Incarceration Fan Chart ────────────────────────────────
+  (function(){
+    var yMax = 600;
+    function sy(v){ return pad.t + (1 - v/yMax) * ch; }
+
+    var interventionX = sx(1963);
+    var html = gridHTML(sy, yMax, 100);
+
+    // Intervention line
+    html += '<line x1="'+interventionX.toFixed(1)+'" y1="'+pad.t+'" x2="'+interventionX.toFixed(1)+'" y2="'+(H-pad.b)+'" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4,4"/>';
+    html += '<text x="'+(interventionX+6).toFixed(1)+'" y="'+(pad.t+14)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9" letter-spacing="0.06em">1963 CMHC ACT</text>';
+
+    // Fan bands
+    html += '<path d="'+buildArea(cfIncar.p95, cfIncar.p05, sy)+'" fill="rgba(74,144,217,0.08)" stroke="none"/>';
+    html += '<path d="'+buildArea(cfIncar.p75, cfIncar.p25, sy)+'" fill="rgba(74,144,217,0.15)" stroke="none"/>';
+
+    html += '<path d="'+buildPath(cfIncar.p95, sy)+'" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfIncar.p05, sy)+'" fill="none" stroke="rgba(74,144,217,0.2)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfIncar.p75, sy)+'" fill="none" stroke="rgba(74,144,217,0.3)" stroke-width="0.8"/>';
+    html += '<path d="'+buildPath(cfIncar.p25, sy)+'" fill="none" stroke="rgba(74,144,217,0.3)" stroke-width="0.8"/>';
+
+    // Counterfactual median
+    html += '<path d="'+buildPath(cfIncar.p50, sy)+'" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linejoin="round"/>';
+
+    // Actual line
+    html += '<path d="'+buildPath(actualIncar, sy)+'" fill="none" stroke="var(--red)" stroke-width="2.5" stroke-linejoin="round"/>';
+
+    // The gap fill between actual and counterfactual median (the human cost)
+    var gapPath = '';
+    for (var i = 0; i < years.length; i++) {
+      gapPath += (i===0?'M':'L') + sx(years[i]).toFixed(1) + ',' + sy(actualIncar[i]).toFixed(1);
+    }
+    for (var i = years.length-1; i >= 0; i--) {
+      gapPath += 'L' + sx(years[i]).toFixed(1) + ',' + sy(cfIncar.p50[i]).toFixed(1);
+    }
+    gapPath += 'Z';
+    html += '<path d="'+gapPath+'" fill="rgba(192,57,43,0.08)" stroke="none"/>';
+
+    // End labels
+    var lastIdx = years.length - 1;
+    var lastX = sx(years[lastIdx]);
+    html += '<circle cx="'+lastX.toFixed(1)+'" cy="'+sy(actualIncar[lastIdx]).toFixed(1)+'" r="4" fill="var(--red)"/>';
+    html += '<text x="'+(lastX-60).toFixed(1)+'" y="'+(sy(actualIncar[lastIdx])-12).toFixed(1)+'" fill="var(--red)" font-family="Space Mono,monospace" font-size="10" text-anchor="end">ACTUAL: '+Math.round(actualIncar[lastIdx])+'/100k</text>';
+
+    html += '<circle cx="'+lastX.toFixed(1)+'" cy="'+sy(cfIncar.p50[lastIdx]).toFixed(1)+'" r="4" fill="var(--blue)"/>';
+    html += '<text x="'+(lastX-60).toFixed(1)+'" y="'+(sy(cfIncar.p50[lastIdx])+16).toFixed(1)+'" fill="var(--blue)" font-family="Space Mono,monospace" font-size="10" text-anchor="end">CF: '+Math.round(cfIncar.p50[lastIdx])+'/100k</text>';
+
+    // Gap annotation at midpoint
+    var midIdx = Math.floor(years.length * 0.7);
+    var gapMidX = sx(years[midIdx]);
+    var gapMidY = (sy(actualIncar[midIdx]) + sy(cfIncar.p50[midIdx])) / 2;
+    html += '<text x="'+gapMidX.toFixed(1)+'" y="'+gapMidY.toFixed(1)+'" fill="rgba(192,57,43,0.5)" font-family="Space Mono,monospace" font-size="10" text-anchor="middle" letter-spacing="0.1em">THE GAP</text>';
+
+    // Legend
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+10)+'" width="12" height="3" fill="var(--red)"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+14)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">ACTUAL INCARCERATION</text>';
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+26)+'" width="12" height="3" fill="var(--blue)"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+30)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">COUNTERFACTUAL (MEDIAN)</text>';
+    html += '<rect x="'+(W-pad.r-220)+'" y="'+(pad.t+42)+'" width="12" height="8" fill="rgba(74,144,217,0.15)" stroke="rgba(74,144,217,0.3)" stroke-width="0.5"/>';
+    html += '<text x="'+(W-pad.r-202)+'" y="'+(pad.t+50)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="9">50% / 90% CI</text>';
+
+    // Axis label
+    html += '<text x="'+pad.l+'" y="'+(pad.t-12)+'" fill="var(--muted)" font-family="Space Mono,monospace" font-size="10" letter-spacing="0.1em">INCARCERATION RATE PER 100,000</text>';
+
+    document.getElementById('incar-chart').innerHTML = html;
+  })();
+
+})();
+</script>
+
+</body>
+</html>
