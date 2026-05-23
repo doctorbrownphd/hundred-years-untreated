@@ -112,5 +112,13 @@ The beds went away. The illness did not.
 
 **Confidence system:** This report uses a three-tier confidence system (High / Candidate / Speculative). Each claim is tagged in the interactive visualization. The methodology tab provides full transparency on data provenance and known limitations.
 
+Any errors of methodology, interpretation, or framing are the author's alone.
+
+---
+
+*Report 07 of 10 in the One Hundred Years series.*
+[untreated.onehundredyears.report](https://untreated.onehundredyears.report)
+
+**Contact:** hello@onehundredyears.report
 **License:** MIT
 **Repository:** github.com/doctorbrownphd/hundred-years-untreated
